@@ -1,0 +1,181 @@
+[0.053s] Invoking command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ubuntu/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ws_sensor_combined/install/px4_ros_com
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.622s] -- The CXX compiler identification is GNU 11.4.0
+[0.656s] -- Detecting C compiler ABI info
+[0.959s] -- Detecting C compiler ABI info - done
+[0.992s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.993s] -- Detecting C compile features
+[0.995s] -- Detecting C compile features - done
+[1.009s] -- Detecting CXX compiler ABI info
+[1.351s] -- Detecting CXX compiler ABI info - done
+[1.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.386s] -- Detecting CXX compile features
+[1.388s] -- Detecting CXX compile features - done
+[1.419s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.077s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.705s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.042s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.093s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.162s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.485s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.610s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.630s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.768s] -- Found px4_msgs: 2.0.1 (/home/ubuntu/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[3.842s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.148s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.176s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.826s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.145s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.743s] -- Looking for pthread.h
+[6.065s] -- Looking for pthread.h - found
+[6.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.391s] -- Found Threads: TRUE  
+[6.604s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.703s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[6.754s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.412s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.476s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.478s] -- Configured cppcheck include dirs: /home/ubuntu/ws_sensor_combined/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/ubuntu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com>
+[7.479s] -- Configured cppcheck exclude dirs and/or files: 
+[7.541s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.541s] -- Configured cpplint exclude dirs and/or files: 
+[7.551s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.568s] -- Added test 'lint_cmake' to check CMake code style
+[7.578s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.641s] -- Added test 'uncrustify' to check C / C++ code style
+[7.641s] -- Configured uncrustify additional arguments: 
+[7.651s] -- Added test 'xmllint' to check XML markup files
+[7.666s] -- Configuring done
+[7.830s] -- Generating done
+[7.842s] -- Build files have been written to: /home/ubuntu/ws_sensor_combined/build/px4_ros_com
+[7.886s] Invoked command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ubuntu/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ws_sensor_combined/install/px4_ros_com
+[7.894s] Invoking command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ubuntu/ws_sensor_combined/build/px4_ros_com -- -j4 -l4
+[8.046s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[8.049s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[8.055s] [ 33%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[8.056s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[12.906s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[12.908s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.910s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[12.911s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[12.913s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[12.914s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.922s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.923s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.923s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.933s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[12.934s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.935s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[12.936s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[12.936s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[12.937s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.938s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.939s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.939s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[12.941s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.942s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[12.943s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[12.943s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[12.957s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.958s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.958s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.959s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.960s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[12.961s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.961s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[12.962s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[12.963s]                  from [01m[K/home/ubuntu/ws_sensor_combined/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[12.964s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.965s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.966s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[36.317s] [ 41%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[37.589s] [ 41%] Built target debug_vect_advertiser
+[37.660s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[52.026s] [ 58%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[53.497s] [ 58%] Built target frame_transforms
+[53.564s] [ 66%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[57.016s] [ 75%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[58.481s] [ 83%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[59.530s] [ 83%] Built target sensor_combined_listener
+[59.631s] [ 83%] Built target ament_cmake_python_copy_px4_ros_com
+[60.771s] [ 83%] Built target vehicle_gps_position_listener
+[62.005s] running egg_info
+[62.010s] creating px4_ros_com.egg-info
+[62.011s] writing px4_ros_com.egg-info/PKG-INFO
+[62.012s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[62.014s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[62.015s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[62.028s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[62.031s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[62.174s] [ 83%] Built target ament_cmake_python_build_px4_ros_com_egg
+[70.723s] [ 91%] [32m[1mLinking CXX executable offboard_control[0m
+[71.888s] [ 91%] Built target offboard_control
+[82.997s] [100%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[84.219s] [100%] Built target offboard_control_srv
+[84.259s] Invoked command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ubuntu/ws_sensor_combined/build/px4_ros_com -- -j4 -l4
+[84.553s] Invoking command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ubuntu/ws_sensor_combined/build/px4_ros_com
+[84.571s] -- Install configuration: ""
+[84.572s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[84.602s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[84.602s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[84.631s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[84.632s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[84.642s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[84.643s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[84.656s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[84.657s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[84.673s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[84.673s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[84.675s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[84.676s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com
+[84.677s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[84.678s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
+[84.711s] -- Set runtime path of "/home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[84.712s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch
+[84.712s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[84.713s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[84.715s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test
+[84.715s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[84.716s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[84.717s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[84.718s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[84.720s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[84.721s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[84.722s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[84.724s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[84.725s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[84.726s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[84.728s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[84.729s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[84.730s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[84.731s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[84.891s] Listing '/home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[84.892s] Compiling '/home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[84.894s] Compiling '/home/ubuntu/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[84.916s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[84.918s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[84.920s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[84.921s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[84.923s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[84.925s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[84.927s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[84.928s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[84.930s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[84.932s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[84.933s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[84.934s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv
+[84.936s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[84.938s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[84.939s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[84.941s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.942s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[84.944s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.945s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[84.947s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[84.948s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[84.949s] -- Installing: /home/ubuntu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.xml
+[84.957s] Invoked command in '/home/ubuntu/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ubuntu/ws_sensor_combined/build/px4_ros_com
